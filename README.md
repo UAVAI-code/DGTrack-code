@@ -39,7 +39,7 @@ You can also modify paths by these two files:
 ### Training
 Download pre-trained [DeiT-Tiny-distilled weights](https://github.com/facebookresearch/deit) and put it under `$USER_ROOT$/.cache/torch/hub/checkpoints/. 
 ```
-python tracking/train.py --script dgtrack --config deit_tiny_patch16_224 --save_dir ./output --mode single
+python\lib\train\run_training.py --script DGtrack --config deit_tiny_distilled_patch16_224 --save_dir ./output --seed 318
 ```
 
 ### Multi-level transformer
