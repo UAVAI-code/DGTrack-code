@@ -36,18 +36,6 @@ You can also modify paths by these two files:
 ./lib/test/evaluation/local.py  # paths for testing
 ```
 
-### Training
-Download pre-trained [DeiT-Tiny-distilled weights](https://github.com/facebookresearch/deit) and put it under `$USER_ROOT$/.cache/torch/hub/checkpoints/. 
-```
-python\lib\train\run_training.py --script DGtrack --config deit_tiny_distilled_patch16_224 --save_dir ./output --seed 318
-```
-
-### Multi-level transformer
-```
-python  mmdet\datasets\pipelines\Multi_level_run.py
-```
-
-
 ### Testing
 Download the model weights from [BaiduNetDisk](https://pan.baidu.com/s/1rhHj_ZLqGjT7z27rdozKlQ?pwd=eifm (eifm))
 
